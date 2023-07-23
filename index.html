@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Обучение судоку</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" href="favicon.png">
+</head>
+<body>
+	<div class="main">
+		<h1>Sudoku Training</h1>
+		<div id="info">
+			В игре предусмотрено 3 уровня сложности, от выбора которых зависит кол-во неизвестных блоков в игре. 
+			За пройденный уровень Вы получаете 100 очков. За неверный ответ у Вас отнимается 10 очков. Цель игры набрать 500 очков за 30 секунд. 
+		</div>
+
+		<h2 id="time" hidden></h2>
+		<h2 id="score" hidden></h2>
+
+		<div id="buttons">
+			<input type="button" value="Легко" onclick="newGame(1)">
+			<input type="button" value="Средне" onclick="newGame(2)">
+			<input type="button" value="Сложно" onclick="newGame(3)">
+		</div>
+
+		<table id="board" hidden></table>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>

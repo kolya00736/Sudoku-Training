@@ -1,0 +1,72 @@
+* {
+	font-family: 'Source Code Pro', monospace;
+}
+
+body {
+	background: #faf8ef;
+}
+
+.main {
+	margin: 0 auto;
+	text-align: center;
+}
+
+h2 {
+	color: #666;
+	font-weight: normal;
+}
+
+#info {
+	margin: 20px;
+	padding: 0 20%;
+}
+
+input[type="button"] {
+	color: white; /* #eeecec; */
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+	border: none;
+	background: #cac1b5;
+	padding: 5px;
+	margin: 10px;
+	width: 200px;
+	height: 50px;
+	cursor: pointer;
+	box-shadow: 0 5px 5px hsla(203,7%,56%,.24);
+}
+
+input[type="button"]:hover {
+	background: #bbada0;
+}
+
+table {
+	margin: 0 auto;
+	width: 300px;
+	height: 300px;
+	padding: 5px;
+	background: #bbada0;
+	box-shadow: 0 15px 15px hsla(203,7%,56%,.24);
+}
+
+td {
+	font-size: 24px;
+	border-radius: 5px;
+	border: solid 5px #bbada0;
+	background: #cac1b5;
+	color: white;
+}
+
+.wrong {
+	color: red;
+}
+
+.correct {
+	color: green; /* border: 2px dashed green; */
+}
+
+span {
+	color: #666;
+	font-size: 18px;
+	padding: 5px;
+}
